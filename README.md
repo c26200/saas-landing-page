@@ -1,16 +1,24 @@
-# React + Vite
+# ⚡ Nexus AI - Modern SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-conversion landing page for a fictional AI SaaS product. Built to demonstrate advanced frontend techniques including scroll-triggered animations, complex layouts (Bento Grid), and glassmorphism UI.
 
-Currently, two official plugins are available:
+![Project Preview](./preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+[View Live Project](https://saas-landing-page-rose-zeta.vercel.app/)
 
-## React Compiler
+## ✨ Key Features
+* **🎭 Scroll Reveal Animations:** Elements fade in and slide up elegantly as the user scrolls (`Framer Motion`).
+* **🍱 Bento Grid Layout:** Asymmetric, Apple-style grid layout that adapts perfectly to all screen sizes.
+* **💎 Glassmorphism Navbar:** Smart sticky header that becomes blurred/glassy when scrolling.
+* **🎨 Modern UI Design:** Deep dark mode with vibrant neon accents and "glow" effects.
+* **📱 Fully Responsive:** Optimized for mobile, tablet, and desktop.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+* React + Vite
+* Tailwind CSS (Styling & Gradients)
+* Framer Motion (Complex Animations)
+* Lucide React (Iconography)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+Made with ❤️ by [Carlos Gordillo](https://github.com/c26200)
