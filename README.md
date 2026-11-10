@@ -1,8 +1,8 @@
 # Nexus AI — Landing Page
 
-A single-page marketing site for a fictional AI product. It was built as a frontend
-exercise around scroll-triggered animations, a Bento Grid feature section and a
-glassmorphic sticky navbar.
+A typographic landing page for a fictional AI product. Archivo Black at monumental scale,
+one acid accent and a diagonal that cuts the hero; the rest of the page keeps the same
+editorial rhythm instead of falling back to cards.
 
 **[Live demo](https://saas-landing-page-rose-zeta.vercel.app)**
 
@@ -10,14 +10,14 @@ glassmorphic sticky navbar.
 
 ## Sections
 
-- **Hero** — headline, primary call to action and product mockup
-- **Features** — asymmetric Bento Grid that reflows on mobile
-- **Pricing** — three tiers with the middle plan highlighted
-- **Footer** — minimal links and copyright
+- **Hero** — oversized headline, acid diagonal, product metrics and two calls to action
+- **Features** — five numbered rows (01–05) with a closing "Start Building" band
+- **Pricing** — three tiers with the Pro plan inverted to acid
+- **Footer** — links and copyright
 
 ## Stack
 
-React 19 · Vite · Tailwind CSS · Framer Motion · Lucide React
+React 19 · Vite · Tailwind CSS
 
 ## Run locally
 
@@ -31,15 +31,16 @@ npm run dev
 ```
 src/
 ├── components/
-│   ├── Navbar.jsx             # Sticky glass navbar
-│   ├── Hero.jsx
-│   ├── Features.jsx           # Bento Grid
-│   └── Pricing.jsx
-└── App.jsx
+│   ├── Navbar.jsx             # Sticky bar with the acid CTA
+│   ├── Hero.jsx               # Headline, diagonal and metrics
+│   ├── Features.jsx           # Numbered feature rows
+│   └── Pricing.jsx            # Three plans, Pro highlighted
+├── App.jsx
+└── index.css                  # Signal tokens and layout
 ```
 
 ## Notes
 
 Nexus AI is fictional: the copy, plan names and prices are placeholders. There is no
-backend, and the call-to-action buttons do not submit anywhere. The project is best read
-as a layout and animation exercise.
+backend, and the call-to-action buttons do not submit anywhere. The page targets desktop
+and stacks into a single column below 900 px.
